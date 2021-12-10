@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+<!--  -->
+{% block PageContent %}
+<h2>Welcome to Whispyr</h2>
+<p>Want to share a Secret Message with your lov- *ahem* friend?</p>
+<p>Great! You're on Correct Site!</p>
+<p>
+  Just Enter your message Below and tap "Whispyr" to get a one time usable Link
+  to share with that "Friend" of yours.
+</p>
+
+<form action="post">
+  <h3>Message</h3>
+  <textarea
+    name="message"
+    cols="30"
+    rows="10"
+    placeholder="Your Message...."
+    required
+  ></textarea>
+  <button type="submit">Whispyr</button>
+</form>
+
+<h3>Hold Up!</h3>
+<p>
+  I want to share Secret Message with my belo- *ahem* i mean friend. But won't
+  you be able to see what's the message?
+</p>
+<p>
+  I knew you'll say so. Navigate <button>here</button> to learn how the site
+  keep your messages a secret.
+</p>
+{% endblock PageContent %}
