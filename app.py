@@ -1,6 +1,6 @@
-from flask import current_app
+from whispyr import create_app
 
-app = current_app()
+app = create_app()
 
 if __name__ == '__main__':
     app.run()
