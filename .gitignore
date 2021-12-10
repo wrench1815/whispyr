@@ -13,3 +13,8 @@ build/
 *.egg-info/
 
 .vscode/
+
+# DB files
+*.db
+*.sqlite
+*.sqlite3
