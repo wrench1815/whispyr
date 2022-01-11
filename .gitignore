@@ -1,2 +1,5 @@
 # vascode related folder
 .vscode/
+
+# cache files
+__pycache__/
