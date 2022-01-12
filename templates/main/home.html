@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+<!--  -->
+
+{% block PageContent %}
+
+<h1>Welcome to Whispyr</h1>
+
+<h3>Enter Your Message to secretly Share it</h3>
+
+<form method="POST">
+  {% csrf_token %}
+  <textarea name="SecetMessage" rows="10"></textarea>
+  <button type="submit">Done</button>
+</form>
+
+{% endblock PageContent %}
