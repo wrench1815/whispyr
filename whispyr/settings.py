@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'main',
 ]
 
 MIDDLEWARE = [
@@ -184,7 +185,7 @@ JAZZMIN_SETTINGS = {
 
     # Just make sure auth is first
     'order_with_respect_to': ['auth'],
-    
+
     #############
     # UI Tweaks #
     #############
